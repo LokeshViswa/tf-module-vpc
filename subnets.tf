@@ -1,4 +1,4 @@
-module "public_subnets" {
+f fmodule "public_subnets" {
   source            = "./subnets"
   default_vpc_id    = var.default_vpc_id
   env               = var.env
